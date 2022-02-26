@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="stylecontact.css">
+</head>
+<body>
+<header>
+	<a href="home.html"><img class="logo" src="http://synergia.select-themes.com/wp-content/themes/synergia/assets/img/logo.png"></a>
+	<h1>FPT Polytechnic</h1>
+<nav>
+		<ul>
+		<li><a href="home.html">Home</a></li>
+		<li><a href="contact.html"">Contact</a>
+			<ul>
+			 	<li><a href="#">Mobile</a></li>
+			 	<li><a href="#">Email</a></li>
+			</ul>
+		</li>
+		<li><a href="list.html">Shop</a></li>
+		<li><a href="login.html">Login</a></li>
+		</ul>
+</nav>
+</header>
+<!--End Header///////////////////////\\\\\\\\\\\\\\\\\\\\\\-->
+
+<div class="containerc">
+    <p>CONTACT US</p>
+    <div class="ifct">
+    <img src="img/call.png"> <b>01626030448<b><br>
+    <img src="img/mail.png"> <b>truongbuidp@gmail.com</b><br>
+    <img src="img/location.png"> <b>274 Nam Ky Khoi Nghia, Dictrict 3, Ho Chi Minh city</b><br><br>
+    </div>
+    <div class="loginc">
+      <input type="text" placeholder="Your Name" class="input">
+      <input type="text" placeholder="Your Email Address" class="input">
+    </div>
+    
+    <div class="subject">
+      <input type="text" placeholder="Subject" class="input">
+    </div>
+    
+    <div class="msg">
+      <textarea  class="area" placeholder="Leave a Message"></textarea>
+    </div>
+    
+    <div class="btn">Send Message</div>
+  </div>
+<script type="text/javascript">
+	$(".btn").click(function(){
+  $(".input, .area").val("");
+});
+</script>
+
+<!--Footer/////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\-->
+<footer>
+	<section id="extra_content">
+<!--Column 1/////////////////////////////////////////////-->
+	<article class="column">
+		<h4>Lorem ipsum</h4>
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+	</article>
+<!--Column 2/////////////////////////////////////////////-->
+	<article class="column midlist">
+		<h4>Useful Links</h4>
+		<ul>
+			<li>
+				<a href="#">Five Ways to Enhance Visibility</a>
+			</li>
+			<li>
+				<a href="#">2018 Tech Conference Events</a>
+			</li>
+			<li>
+				<a href="#">Streaming Apps – Future of TV</a>
+			</li>
+			<li>
+				<a href="#">Topic of the Week: Talking SEO</a>
+			</li>	
+		</ul>
+	</article>
+<!--Column 3/////////////////////////////////////////////-->
+	<article class="column right">
+		<h4>Instagram</h4>
+			<img class="img" src="img/is1.jpg">
+			<img class="img" src="img/is2.jpg">
+			<img class="img" src="img/is3.jpg">
+			<img class="img" src="img/is4.jpg">
+		<h4>Newsletter</h4>
+			<input type="text" name="Newsletter" placeholder="Your E-Mail" class="txtnewsletter">
+			<input type="submit" name="go" class="submitcontrol" value=">">
+	</article>
+	</section>
+
+</footer>
+</body>
+</html>
